@@ -7,6 +7,8 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
+  encouragement, and support.
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -33,22 +35,413 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - ProcessingModule
-citation: Peene, Carter (2026) Allen Institute OpenScope - Predictive Processing (Mesoscope)
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001768/draft
+citation: Lecoq, Jérôme; Peene, R. Carter; Gillis, Ryan; Williford, Ali; Lennon-Jones,
+  Casey; Durand, Severine; Swapp, Jackie; Stearns, Alex; Weber, Julie; Rette, Dean;
+  Belski, Hannah; Caldejon, Shiella; Park, Jimin; Groblewski, Peter A; Seyedolmohadesin,
+  Maedeh; Bussi, Ivana; Oweiss, Karim; Maier, Alexander; He, Manni; De Filippo, Roberto;
+  Cahoon, Alex; Smith, Heston; Wyrick, David G; Gramila, Keith; S, Ruediger; Nejat,
+  Hamed; Halchenko, Yaroslav; Najafi, Farzaneh; Aizenbud, Ido; Sidiropoulou, Maria
+  Anna; Cheah, Yuheng; Shamsnia, Ali; Mudrik, Noga; Grubin, Davis (2026) Allen Institute
+  OpenScope - Predictive Processing (Mesoscope) (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001768/draft
 contributor:
-- affiliation: []
-  email: rcpeene@gmail.com
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  email: jeromel@alleninstitute.org
+  identifier: 0000-0002-0131-0938
   includeInCitation: true
-  name: Peene, Carter
+  name: Lecoq, Jérôme
   roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:ProjectAdministration
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, R. Carter
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:Software
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0000-1879-6519
+  includeInCitation: true
+  name: Gillis, Ryan
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0000-7282-7515
+  includeInCitation: true
+  name: Williford, Ali
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Lennon-Jones, Casey
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0000-0001-7788-0200
+  includeInCitation: true
+  name: Durand, Severine
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0008-4965-6242
+  includeInCitation: true
+  name: Swapp, Jackie
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0001-8861-5290
+  includeInCitation: true
+  name: Stearns, Alex
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0002-1060-3828
+  includeInCitation: true
+  name: Weber, Julie
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Methodology
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0002-5202-6627
+  includeInCitation: true
+  name: Rette, Dean
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0001-5422-5964
+  includeInCitation: true
+  name: Belski, Hannah
+  roleName:
+  - dcite:Author
+  - dcite:ProjectAdministration
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Caldejon, Shiella
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Park, Jimin
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Validation
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-8415-1118
+  includeInCitation: true
+  name: Groblewski, Peter A
+  roleName:
+  - dcite:Author
+  - dcite:Visualization
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0000-0003-3742-394X
+  includeInCitation: true
+  name: Seyedolmohadesin, Maedeh
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  email: ivana.bussi@alleninstitute.org
+  identifier: 0000-0003-4721-763X
+  includeInCitation: true
+  name: Bussi, Ivana
+  roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- affiliation:
+  - name: University of Florida
+    schemaKey: Affiliation
+  identifier: 0000-0002-1175-7258
+  includeInCitation: true
+  name: Oweiss, Karim
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Vanderbilt University, Nashville, TN
+    schemaKey: Affiliation
+  identifier: 0000-0002-7250-502X
+  includeInCitation: true
+  name: Maier, Alexander
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Conceptualization
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0001-4237-900X
+  includeInCitation: true
+  name: He, Manni
+  roleName:
+  - dcite:Author
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Humboldt-Universität zu Berlin, Bernstein Center for Computational9 Neuroscience
+      Berlin and Institute of Biology, Berlin, Germany
+    schemaKey: Affiliation
+  - name: Allen Institute, Brain and Consciousness, Seattle, WA, USA
+    schemaKey: Affiliation
+  email: roberto.de-filippo@bccn-berlin.de
+  identifier: 0000-0002-4085-9114
+  includeInCitation: true
+  name: De Filippo, Roberto
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Visualization
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  identifier: 0009-0006-9468-1696
+  includeInCitation: true
+  name: Cahoon, Alex
+  roleName:
+  - dcite:Author
+  - dcite:Resources
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain and Consciousness, Seattle, WA, USA
+    schemaKey: Affiliation
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  email: smithhestonl@alleninstitute.org
+  includeInCitation: true
+  name: Smith, Heston
+  roleName:
+  - dcite:Author
+  - dcite:Resources
+  - dcite:Visualization
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Studio D3, Seattle, WA, USA
+    schemaKey: Affiliation
+  email: david.wyrick@alleninstitute.org
+  identifier: 0000-0001-8096-5766
+  includeInCitation: true
+  name: Wyrick, David G
+  roleName:
+  - dcite:Author
+  - dcite:Software
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  email: keith.gramila@alleninstitute.org
+  identifier: 0009-0001-9402-8631
+  includeInCitation: true
+  name: Gramila, Keith
+  roleName:
+  - dcite:Author
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: University College London, London, UK
+    schemaKey: Affiliation
+  email: s.ruediger@ucl.ac.uk
+  identifier: 0000-0001-6684-4693
+  includeInCitation: true
+  name: S, Ruediger
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Vanderbilt University, Nashville, TN
+    schemaKey: Affiliation
+  email: hamed.nejat@vanderbilt.edu
+  identifier: 0009-0003-5963-5801
+  includeInCitation: true
+  name: Nejat, Hamed
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Dartmouth College
+    schemaKey: Affiliation
+  identifier: 0000-0003-3456-2493
+  includeInCitation: true
+  name: Halchenko, Yaroslav
+  roleName:
+  - dcite:Author
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Georgia Institute of Technology
+    schemaKey: Affiliation
+  email: fnajafi3@gatech.edu
+  identifier: 0000-0001-6454-2448
+  includeInCitation: true
+  name: Najafi, Farzaneh
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:Methodology
+  schemaKey: Person
+- affiliation:
+  - name: The Hebrew University of Jerusalem, Jerusalem, Israel
+    schemaKey: Affiliation
+  email: Ido.aizenbud@mail.huji.ac.il
+  identifier: 0009-0006-6855-567X
+  includeInCitation: true
+  name: Aizenbud, Ido
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: University College London, London, UK
+    schemaKey: Affiliation
+  email: masiart3@gmail.com
+  identifier: 0009-0008-0185-715X
+  includeInCitation: true
+  name: Sidiropoulou, Maria Anna
+  roleName:
+  - dcite:Author
+  - dcite:Software
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: University College London
+    schemaKey: Affiliation
+  email: yhcheah804@gmail.com
+  identifier: 0009-0006-6564-6314
+  includeInCitation: true
+  name: Cheah, Yuheng
+  roleName:
+  - dcite:Author
+  - dcite:Software
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: Georgia Institute of Technology
+    schemaKey: Affiliation
+  email: alishamsniaaa@gmial.com
+  identifier: 0009-0000-1137-6132
+  includeInCitation: true
+  name: Shamsnia, Ali
+  roleName:
+  - dcite:Author
+  - dcite:Methodology
+  - dcite:Software
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics, Seattle, WA
+    schemaKey: Affiliation
+  - name: Johns Hopkins University
+    schemaKey: Affiliation
+  email: nogamudrik@gmail.com
+  identifier: 0000-0001-7086-9308
+  includeInCitation: true
+  name: Mudrik, Noga
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Georgia Institute of Technology
+    schemaKey: Affiliation
+  email: grubin6@gatech.edu
+  identifier: 0009-0008-5337-4168
+  includeInCitation: true
+  name: Grubin, Davis
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Software
   schemaKey: Person
 dateCreated: '2026-03-19T18:03:49.688871+00:00'
 description: "This dataset contains data acquired on the Mesoscope platform as part
   of the OpenScope predictive processing community project\n\n"
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: Allen Institute Institutional Animal Care and Use Committee (IACUC),
+    protocol 2117
+  schemaKey: EthicsApproval
 id: DANDI:001768/draft
 identifier: DANDI:001768
+keywords:
+- openscope
+- ophys
+- mesoscope
+- 2-photon
+- fluorescence
+- calcium imaging
+- mouse
+- textures
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
